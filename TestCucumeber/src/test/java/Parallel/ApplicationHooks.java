@@ -37,13 +37,13 @@ public class ApplicationHooks {
 		driver = driverFactory.int_driver(BrowserName);
 	}
 
-	@After(order=0)
+	@After(order=1)
 	public void QuitBrowser()
 	{
 		driver.quit();
 	}
 	
-	@After(order=1)
+	@After(order=0)
 	public void tearDown(Scenario scenario)
 	{
 		if(scenario.isFailed())
@@ -56,6 +56,5 @@ public class ApplicationHooks {
 			
 		}
 	}
-
 
 }

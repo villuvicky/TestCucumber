@@ -3,10 +3,8 @@ package Parallel;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
-
 import com.Factory.DriverFactory;
 import com.PageObjects.ContactUsPage;
 import com.Utilities.ExcelReader;
