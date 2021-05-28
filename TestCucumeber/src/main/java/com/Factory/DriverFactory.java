@@ -12,7 +12,7 @@ public class DriverFactory {
 	 * returns driver
 	 */
 	//public WebDriver driver;
-	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>();
+	public static ThreadLocal<WebDriver> tldriver = new ThreadLocal<WebDriver>();
 
 	public  WebDriver int_driver(String browser) 
 	{
